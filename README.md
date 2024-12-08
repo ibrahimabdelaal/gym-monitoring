@@ -60,7 +60,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[![Poses Keypoints for reference](images/poses.JPG)](https://example2.com)
+[![Poses Keypoints for reference](images/poses.png)](https://example2.com)
 
 <!-- ### Built With
 
