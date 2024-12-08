@@ -18,12 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][AmrRagab - Mo Nasr - Abduallh Arafat - Mo Gabr]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![project_license][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -83,7 +77,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot](images/app.png)](https://example.com)
+[![Product Name Screen Shot](images/app.JPG)](https://example.com)
 
 
 <!-- Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license` -->
@@ -138,8 +132,10 @@ To install the necessary dependencies and set up the environment, follow these s
    conda create --name gym-env python=3.8
    conda activate gym-env
 3. **Install Dependencies:**
+    ```sh
    pip install -r requirements.txt
 
 3. **Run:**
+    ```sh
    python main.py
 
