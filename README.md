@@ -53,7 +53,7 @@
 ## About The Project
 
 [![Product Name Screen Shot](images/app.JPG)](https://example.com)
-[![Product Name Screen Shot](images/poses.JPG)](https://example.com)
+[![Poses Keypoints for reference](images/poses.JPG)](https://example2.com)
 
 
 <!-- Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license` -->
