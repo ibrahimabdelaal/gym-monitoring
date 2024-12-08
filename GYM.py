@@ -103,8 +103,8 @@ class AIGym(BaseSolution):
                 else:
                     self.angle[ind] = right_angle
 
-                print("************************************************")
-                print("angle used is : ", self.angle[ind])
+                # print("************************************************")
+                # print("angle used is : ", self.angle[ind])
 
                 # Annotate keypoints
                 if left_angle:
@@ -120,12 +120,12 @@ class AIGym(BaseSolution):
 
                 # Update stage and count based on thresholds
                 if self.angle[ind] < self.down_angle:
-                    print("dowwwwwwwwwwwwwwwwwwn", self.angle[ind])
+                   # print("dowwwwwwwwwwwwwwwwwwn", self.angle[ind])
                     if self.stage[ind] == "up":
                         self.count[ind] += 1
                     self.stage[ind] = "down"
                 elif self.angle[ind] > self.up_angle:
-                    print("uppppppppppppppppppppp", self.angle[ind])
+                 #   print("uppppppppppppppppppppp", self.angle[ind])
                     self.stage[ind] = "up"
 
                 # Display angle, count, and stage

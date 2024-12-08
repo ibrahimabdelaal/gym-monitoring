@@ -20,10 +20,17 @@ try:
     # Get the selected exercise settings
     selected_exercise = exercise_map[exercise_choice]
     settings = exercise_config[selected_exercise]
-    print("here is the settings",settings)
+    print("here is the settings used for you exercise : feel free to change it in from utlis.exercise_config", settings)
 
-    # Open the video file (update path as needed)
-    video_file = f"workout/{selected_exercise}.mp4"
+    # Prompt the user for a video file path
+    video_file = input(f"Enter the path of the video for {selected_exercise} (default: 'workout/{selected_exercise}.mp4'): ")
+
+    # If no input is provided, use the default path
+    if not video_file:
+        video_file = f"workout/{selected_exercise}.mp4"
+        print(f"Using default video path: {video_file}")
+
+    # Open the video file
     cap = cv2.VideoCapture(video_file)
     assert cap.isOpened(), f"Error reading video file: {video_file}"
 
@@ -41,7 +48,7 @@ try:
         show=True,
         left_kpts=settings["left_kpts"],
         right_kpts=settings["right_kpts"],
-        conf=0.3,
+        conf=0.5,
         up_angle=settings["up_angle"],
         down_angle=settings["down_angle"],
         save=True,
