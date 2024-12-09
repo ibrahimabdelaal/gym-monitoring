@@ -20,7 +20,25 @@ try:
     # Get the selected exercise settings
     selected_exercise = exercise_map[exercise_choice]
     settings = exercise_config[selected_exercise]
-    print("here is the settings used for you exercise : feel free to change it in from utlis.exercise_config", settings)
+    print("Here are the settings used for your exercise (feel free to change them in utils.exercise_config):", settings)
+
+    # Prompt the user to select a model
+    print("\nSelect a YOLO pose model:")
+    print("1. Nano ")
+    print("2. Small ")
+    print("3. Medium ")
+    print("4. Large ")
+
+    model_choice = int(input("Enter the number of the model: "))
+    model_map = {1: "weights\yolo11n-pose.pt", 2: "weights\yolo11s-pose.pt", 3: "weights\yolo11m-pose.pt", 4: "weights\yolo11l-pose.pt"}
+
+    # Validate the model choice
+    if model_choice not in model_map:
+        raise ValueError("Invalid model choice. Please select a valid number.")
+
+    # Get the selected model
+    selected_model = model_map[model_choice]
+    print(f"Using model: {selected_model}")
 
     # Prompt the user for a video file path
     video_file = input(f"Enter the path of the video for {selected_exercise} (default: 'workout/{selected_exercise}.mp4'): ")
@@ -43,6 +61,7 @@ try:
 
     # Initialize the AIGym instance with exercise-specific settings
     gym = AIGym(
+        model=selected_model,  # Pass the selected model here
         exercise=selected_exercise,
         line_width=2,
         show=True,

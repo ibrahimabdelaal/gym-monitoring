@@ -19,7 +19,7 @@ class AIGym(BaseSolution):
             kwargs["model"] = "yolo11n-pose.pt"
         elif "model" not in kwargs:
             kwargs["model"] = "yolo11n-pose.pt"
-
+        print( 'the model used is :',kwargs["model"])
         super().__init__(**kwargs)
 
         # Load exercise-specific configurations
