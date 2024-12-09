@@ -113,5 +113,5 @@ To install the necessary dependencies and set up the environment, follow these s
 
 3. **Run:**
     ```sh
-   python main.py
+   python run.py
 
