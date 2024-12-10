@@ -18,13 +18,13 @@ exercise_config = {
         "left_kpts": [11, 13, 15],  # Left leg: Hip, Knee, Ankle
         "right_kpts": [12, 14, 16],  # Right leg: Hip, Knee, Ankle
         "up_angle": 170.0,
-        "down_angle": 90.0,
+        "down_angle": 110.0,
     },
     "squat": {
         "left_kpts": [11, 13, 15],  # Left leg
         "right_kpts": [12, 14, 16],  # Right leg
         "up_angle": 170.0,
-        "down_angle": 90.0,
+        "down_angle":110.0,
     },
 }
 

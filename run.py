@@ -1,6 +1,7 @@
 import cv2
 from GYM import AIGym
-from utlis.exercise_config import exercise_config  # Import exercise configurations
+from utlis.exercise_config import exercise_config
+from utlis.exercise_config_with_error import exercise_config_error
 
 # Prompt the user to select an exercise
 print("Select an exercise:")
@@ -10,6 +11,8 @@ print("3. Deadlift")
 print("4. Squat")
 
 try:
+    #flag to decide with error or not 
+    wiht_error=False
     exercise_choice = int(input("Enter the number of the exercise: "))
     exercise_map = {1: "pushups", 2: "pullups", 3: "deadlift", 4: "squat"}
 
@@ -19,7 +22,16 @@ try:
 
     # Get the selected exercise settings
     selected_exercise = exercise_map[exercise_choice]
-    settings = exercise_config[selected_exercise]
+    
+    # Ask user if they want error detection on or off
+    error_detection_choice = input("Do you want to enable error detection? (y/n): ").strip().lower() == 'y'
+    
+    if error_detection_choice:
+        settings = exercise_config_error[selected_exercise]
+        wiht_error=True
+    else:
+        settings = exercise_config[selected_exercise]
+
     print("Here are the settings used for your exercise (feel free to change them in utils.exercise_config):", settings)
 
     # Prompt the user to select a model
@@ -71,7 +83,8 @@ try:
         up_angle=settings["up_angle"],
         down_angle=settings["down_angle"],
         save=True,
-        max_det=1
+        max_det=1,
+        with_error=wiht_error
     )
 
     # Process video frames
