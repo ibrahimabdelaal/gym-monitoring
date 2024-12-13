@@ -8,6 +8,12 @@ Here's a sample video of the pose detection in action:
 
 https://github.com/user-attachments/assets/020f5d57-0b1f-4ebc-9225-98552f4bde55
 
+
+
+
+https://github.com/user-attachments/assets/2c1908cc-a938-4765-bfd3-ccf99134fa96
+
+
 ## Side Project:  AI Gym Workout Monitoring
 
 
