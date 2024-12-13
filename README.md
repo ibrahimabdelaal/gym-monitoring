@@ -1,4 +1,4 @@
-<p align="centre">(<a href="#readme-top">back to top</a>)</p>
+
 
 [![Poses Keypoints for reference](images/poses.png)](https://example2.com)
 
