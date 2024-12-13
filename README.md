@@ -3,6 +3,8 @@
 [![Poses Keypoints for reference](images/poses.png)](https://example2.com)
 Here's a sample video of the pose detection in action:
 [Sample Video](output/Squat_out.mp4)
+
+
 https://github.com/user-attachments/assets/020f5d57-0b1f-4ebc-9225-98552f4bde55
 <!-- GETTING STARTED -->
 ## Side Project:  AI Gym Workout Monitoring
