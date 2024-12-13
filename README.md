@@ -1,7 +1,7 @@
 
 
 [![Poses Keypoints for reference](images/poses.png)](https://example2.com)
-
+[![sample output](output/squat_out.mp4)](https://example2.com)
 <!-- ### Built With
 
 * [![Next][Next.js]][Next-url]
