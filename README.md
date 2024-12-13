@@ -3,25 +3,7 @@
 [![Poses Keypoints for reference](images/poses.png)](https://example2.com)
 Here's a sample video of the pose detection in action:
 [Sample Video](output/Squat_out.mp4)
-<!-- ### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-
 https://github.com/user-attachments/assets/020f5d57-0b1f-4ebc-9225-98552f4bde55
-
-
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url] -->
-
-
-
-
-
 <!-- GETTING STARTED -->
 ## Side Project:  AI Gym Workout Monitoring
 
