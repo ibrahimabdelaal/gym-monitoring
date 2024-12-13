@@ -78,8 +78,16 @@
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Side Project: Enhanced Workout Tracking with Pose Detection
 
+
+This project aims to develop a modular workout tracking system utilizing YOLO for pose estimation. The initial focus is on building a solid foundation. Future enhancements will include:
+
+Real-time error detection: Providing instant feedback on exercise form with clear explanations for corrections.
+Expanded exercise library: Enabling easy integration of new exercises through a user-friendly interface.
+Improved accuracy: Continuously refining the pose detection model to ensure accurate tracking.
+
+## Getting Started
 setting up the project locally.
 
 # AI Gym Workout Monitoring
