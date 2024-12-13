@@ -1,7 +1,8 @@
 
 
 [![Poses Keypoints for reference](images/poses.png)](https://example2.com)
-[![sample output](output/Squat_Out.mp4)](https://example2.com)
+Here's a sample video of the pose detection in action:
+[Sample Video](output/Squat_out.mp4)
 <!-- ### Built With
 
 * [![Next][Next.js]][Next-url]
