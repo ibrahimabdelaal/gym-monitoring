@@ -9,6 +9,10 @@ Here's a sample video of the pose detection in action:
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
+
+https://github.com/user-attachments/assets/020f5d57-0b1f-4ebc-9225-98552f4bde55
+
+
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
