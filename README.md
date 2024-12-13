@@ -5,7 +5,7 @@
 
 Here's a sample video of the pose detection in action:
 
-<video src="Output/deadlift_out.mp4" controls></video>
+<video src="Output\deadlift_out.mp4" controls></video>
 
 
 
