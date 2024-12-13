@@ -1,6 +1,8 @@
 
 
 [![Poses Keypoints for reference](images/poses.png)](https://example2.com)
+
+
 Here's a sample video of the pose detection in action:
 
 
