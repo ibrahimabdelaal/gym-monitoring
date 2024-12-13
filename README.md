@@ -1,9 +1,11 @@
 
-
 [![Poses Keypoints for reference](images/poses.png)](https://example2.com)
 
-
 Here's a sample video of the pose detection in action:
+
+
+<video src="https://github.com/user-attachments/assets/8232b50a-db83-4255-a4e1-9b2ba5017e28" controls></video>
+
 
 <video src="Output/deadlift_out.mp4" controls></video>
 
