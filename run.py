@@ -8,13 +8,14 @@ print("Select an exercise:")
 print("1. Pushups")
 print("2. Pullups")
 print("3. Deadlift")
-print("4. Squat")
+print("4. Squat")   #Dumbbell Bicep Curls
+print("5. Dumbbell Bicep Curls") 
 
 try:
     #flag to decide with error or not 
     wiht_error=False
     exercise_choice = int(input("Enter the number of the exercise: "))
-    exercise_map = {1: "pushups", 2: "pullups", 3: "deadlift", 4: "squat"}
+    exercise_map = {1: "pushups", 2: "pullups", 3: "deadlift", 4: "squat" ,5:"Dumbbell Bicep Curls"}
 
     # Validate the choice
     if exercise_choice not in exercise_map:

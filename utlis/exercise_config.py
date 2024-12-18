@@ -26,6 +26,12 @@ exercise_config = {
         "up_angle": 170.0,
         "down_angle":110.0,
     },
+        "Dumbbell Bicep Curls": {
+        "left_kpts": [5, 7, 9],  # Left leg
+        "right_kpts": [6, 8, 10],  # Right leg
+        "up_angle": 80.0,
+        "down_angle":130.0,
+    },
 }
 
 

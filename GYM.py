@@ -120,9 +120,9 @@ class AIGym(BaseSolution):
                         left_dist = left_kpts[1][0]  # Horizontal position of left keypoint
                         right_dist = right_kpts[1][0]  # Horizontal position of right keypoint
                         if abs(left_dist - im0.shape[1] / 2) < abs(right_dist - im0.shape[1] / 2):
-                            self.selected_angle[ind] = 'left_angle'
-                        else:
                             self.selected_angle[ind] = 'right_angle'
+                        else:
+                            self.selected_angle[ind] = 'left_angle'
                     elif left_angle:
                         self.selected_angle[ind] = 'left_angle'
                     elif right_angle:
@@ -152,12 +152,21 @@ class AIGym(BaseSolution):
                     left_angle = 0
 
                 # Update stage and count based on thresholds
-                if self.angle[ind] < self.down_angle:
-                    if self.stage[ind] == "up":
-                        self.count[ind] += 1
-                    self.stage[ind] = "down"
-                elif self.angle[ind] > self.up_angle:
-                    self.stage[ind] = "up"
+                if self.exercise=="Dumbbell Bicep Curls":
+                    if self.angle[ind] > self.down_angle:
+                        
+                        self.stage[ind] = "down"
+                    elif self.angle[ind] < self.up_angle:
+                        if self.stage[ind] == "down":
+                            self.count[ind] += 1
+                        self.stage[ind] = "up"
+                else:
+                    if self.angle[ind] < self.down_angle:
+                        if self.stage[ind] == "up":
+                            self.count[ind] += 1
+                        self.stage[ind] = "down"
+                    elif self.angle[ind] > self.up_angle:
+                        self.stage[ind] = "up"
 
                 # Display angle, count, and stage
                 self.annotator.plot_angle_and_count_and_stage(
