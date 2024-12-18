@@ -4,10 +4,9 @@
 Here's a sample video of the pose detection in action:
 
 
-<video src="https://github.com/user-attachments/assets/8232b50a-db83-4255-a4e1-9b2ba5017e28" controls></video>
 
+https://github.com/user-attachments/assets/2897d22e-afaf-4191-aa0f-8dee8ac505ac
 
-<video src="Output/deadlift_out.mp4" controls></video>
 
 
 
